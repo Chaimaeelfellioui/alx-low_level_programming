@@ -8,11 +8,12 @@
 int main(void)
 {
 
-char *h = "Holberton\n";
-while (*h)
+char *sh = "Holberton";
+while (*sh)
 {
-_putchar(*h);
-h++;
+_putchar(*sh);
+sh++;
+_putchar('\n')
 }
 return (0);
 }

@@ -16,5 +16,6 @@ void print_to_98(int n);
 void print_times_table(int n);
 int _puchar(char c);
 int print_alphabet(void);
+int main(void)
 
 #endif /* HOLBERTON_H */

@@ -1,29 +1,28 @@
 #include "main.h"
 
 /**
- * print_sign - prints the sign of a number
- * @k: the nunber to be chevked for sign
+ * print_sign -  print the sign of a number
  *
- * Return: 1 if sign is positive
- * 0 if sign is zero
- * -1 if sign is negative
+ * @n: the number to be checked
+ * Return: 1 if n is greater than zero 0 if n is zero -1 if n is less than zero
  */
 
-int print_sign(int k)
+int print_sign(int n)
 {
-	if (k > 0)
-	{
-		_putchar('+');
-		return (1);
-	}
-	else if (k == 0)
-	{
-		     _putchar('0');
-		     return (0);
-	}
-	else
-	{
-		_putchar('-');
-		return (-1);
-	}
+
+if (n > 0)
+{
+_putchar ('+');
+return (1);
+}
+else if (n == 0)
+{
+_putchar ('0');
+return (0);
+}
+else
+{
+_putchar('-');
+return (-1);
+}
 }

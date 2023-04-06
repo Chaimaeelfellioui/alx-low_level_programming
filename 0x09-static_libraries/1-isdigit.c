@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int _strlen(char *s)
+int _isdigit(int c)
 {
-   return strlen(s);
+   return isdigit(c);
 }
